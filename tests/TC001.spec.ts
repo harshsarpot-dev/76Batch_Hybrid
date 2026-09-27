@@ -7,4 +7,5 @@ test('Enter the login and password', async({page})=>{
    await obj.login();
    await obj.Enter_userid_password();
    await obj.logout();
+   console.log("Test case execution is completed")
 });
